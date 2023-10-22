@@ -73,4 +73,12 @@ main{
     .container .feito h2{
         font-size: 21px;
     }
+    .procurar input{
+        width: 280px;
+    }
+    
+    .procurar button{
+        width: 40px;
+        height: 30px;
+    }
 }
