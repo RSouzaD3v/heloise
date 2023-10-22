@@ -2,13 +2,14 @@ let searchInput = document.querySelector('#search');
 let btnProcurar = document.querySelector('#btnProcurar');
 const date = new Date();
 const currentDate = date.getFullYear();
+const month = date.getMonth() + 1;
 
 console.log(currentDate);
 
 btnProcurar.addEventListener('click', () => {
     let resultado = document.querySelector('.resultado');
     if(searchInput.value == "Quantos anos tem a Heloise ?"){
-        resultado.innerHTML = `<h1>${currentDate - 2023} Anos</h1>`;
+        resultado.innerHTML = `<h1>${currentDate - 2023} Anos / ${month - 9} Mêses</h1>`;
     }else if(searchInput.value == "Qual nome do pai ?"){
         resultado.innerHTML = `<h1>Rafael F. Souza</h1>`;
     }else if(searchInput.value == "Qual nome da mãe ?"){
