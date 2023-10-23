@@ -65,6 +65,7 @@ main{
     margin-right: 8px;
 }
 
+
 @media screen and (max-width: 390px) {
     .container{
         width: 360px;
