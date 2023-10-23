@@ -10,7 +10,7 @@ btnProcurar.addEventListener('click', () => {
     function question(procura){
         procura = searchInput.value;
         let results = {
-            idade: `${currentDate - 2023} Anos / ${month - 9} Mêses`,
+            idade: `${currentDate - 2023} Anos / ${month - 9} Meses`,
             pai: "Rafael F. Souza",
             mae: "Elizia Loureiro"
         };
