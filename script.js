@@ -13,7 +13,7 @@ btnProcurar.addEventListener('click', () => {
             idade: `${currentDate - 2023} Anos / ${month - 9} Meses`,
             pai: "Rafael F. Souza",
             mae: "Elizia Loureiro",
-            tios: "Karina, Julyana, Denilson, Maykson"
+            tios: "Karina, Julyana, Denilson, Maykson, Layla, Valéria"
         };
 
         return results[procura] || "Não temos essa informação ainda..."; 
